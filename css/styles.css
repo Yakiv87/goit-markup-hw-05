@@ -120,6 +120,12 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.menu-link::after {
+  content: ;
+  height: 4px;
+  background: #404bbf;
+  border-radius: 2px;
+}
 .list-contact {
   display: flex;
   align-items: center;
