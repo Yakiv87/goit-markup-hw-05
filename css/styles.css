@@ -120,10 +120,13 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.menu-link::after {
+.current::after {
+  position: absolute;
   display: block;
-  content: dfr;
+  content: ;
+  width: 100%;
   height: 4px;
+  bottom: -1;
   background: #404bbf;
   border-radius: 2px;
 }
