@@ -121,7 +121,8 @@ img {
   padding-bottom: 24px;
 }
 .menu-link::after {
-  content: ;
+  display: block;
+  content: dfr;
   height: 4px;
   background: #404bbf;
   border-radius: 2px;
