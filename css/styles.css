@@ -621,6 +621,7 @@ img {
 }
 
 .overlay {
+  position: absolute;
   font-size: 16px;
   color: #f4f4fd;
   padding-top: 20px;
