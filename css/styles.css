@@ -639,4 +639,5 @@ img {
   background: #fcfcfc;
 }
 .modal-close-btn {
+  background-color: transparent;
 }
