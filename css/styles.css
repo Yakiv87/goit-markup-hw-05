@@ -621,6 +621,7 @@ img {
 }
 .card-content {
   position: relative;
+  overflow: hidden;
 }
 .overlay {
   position: absolute;
