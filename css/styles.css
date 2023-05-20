@@ -648,7 +648,10 @@ img {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: transparent;
+  background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus {
 }
