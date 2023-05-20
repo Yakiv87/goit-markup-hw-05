@@ -579,6 +579,7 @@ img {
 
 .card-first {
   width: calc((100% - 48px) / 3);
+  position: relative;
 }
 .list-project-card {
   display: flex;
