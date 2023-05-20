@@ -638,11 +638,11 @@ img {
   height: 584px;
   background-color: #fcfcfc;
 }
-.modal-close-btn/*{
-   width: 24px; 
+.modal-close-btn {
+  width: 24px;
   height: 24px;
   border-radius: 50%;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
-}*/;
+}
