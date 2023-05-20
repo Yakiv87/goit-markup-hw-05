@@ -620,6 +620,7 @@ img {
   padding: 32px 16px;
 }
 /* Modal */
+
 .backdrop {
   position: fixed;
   z-index: 100;
@@ -655,4 +656,8 @@ img {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background: #404bbf;
+}
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
+  fill: #ffffff;
 }
