@@ -630,6 +630,7 @@ img {
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  top: 100%;
   background-color: rgba(77, 90, 229, 0.5);
 }
 
