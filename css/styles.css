@@ -613,14 +613,15 @@ img {
 .portfolio-item-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
 }
 .card-border {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
 }
-
+.card-content {
+  position: relative;
+}
 .overlay {
   position: absolute;
   font-size: 16px;
@@ -630,8 +631,8 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   background-color: rgba(77, 90, 229, 0.5);
-  mix-blend-mode: normal;
 }
+
 /* Modal */
 
 .backdrop {
@@ -656,7 +657,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 408px;
-  height: 584px;
+  min-height: 576px;
   background-color: #fcfcfc;
 }
 .modal-close-btn {
