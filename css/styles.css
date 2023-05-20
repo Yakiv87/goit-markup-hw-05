@@ -630,6 +630,11 @@ img {
   background: rgba(46, 47, 66, 0.4);
 }
 .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 408px;
   height: 584px;
+  background: #fcfcfc;
 }
