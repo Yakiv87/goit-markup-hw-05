@@ -654,4 +654,5 @@ img {
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
+  background: #404bbf;
 }
