@@ -543,7 +543,9 @@ img {
 .portfolio {
   padding: 96px 0 120px;
 }
-
+.portfolio-color {
+  color: #404bbf;
+}
 .btn-filter {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
